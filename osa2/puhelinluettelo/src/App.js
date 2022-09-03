@@ -39,6 +39,7 @@ const App = () => {
             setNewMessage({...newMessage, msg: null})
           }, 2000))
           .catch(error => {
+            console.log('error', error)
             setNewMessage({msg: `${newPerson.name} was already removed from the server`, state: false})
             setTimeout(() => {
               setNewMessage({...newMessage, msg: null})
