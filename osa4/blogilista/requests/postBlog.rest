@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyIiwiaWQiOiI2MzE4ODNmYTFiYzlkYjIzYzUyZGE1MTYiLCJpYXQiOjE2NjI2NDU1Mjd9.GneJFd_IfwbCth2TykZ1AoKozOYmhA1nIYU2jepeVaA
+
+{
+    "title": "Title 1212",
+    "author": "Author 1212",
+    "url": "http://testurl.com",
+    "likes": 200
+}
