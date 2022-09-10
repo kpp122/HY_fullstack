@@ -18,7 +18,6 @@ describe('when there are initially some blogs saved', () => {
         const user = new User({
             name: 'user',
             username: 'root',
-            blogs: [],
             passwordHash
 
         })
